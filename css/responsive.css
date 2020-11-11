@@ -1,0 +1,117 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .navbar-nav{
+ 	padding-right: 20px;
+ }
+ .s-items{
+ margin:25px;
+ border-radius: 50%;
+ height: 125px;
+ width:125px;
+ margin-bottom: 30px;
+ overflow:hidden;
+ position: relative;
+ 
+}
+.img-hover h3{
+	font-size:15px;
+ 
+}
+.img-hover p{
+	font-size:10px;
+ 
+}
+.padding{
+    padding: 120px 0px 20px 0px;
+}
+.form input,textarea{
+    margin:10px 0px;
+    border: 1px solid grey;
+}
+
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .navbar-collapse{
+    margin-top: 20px;
+}
+.navbar{
+    padding:20px;
+    margin: 0;
+}
+.nav a:hover::before {
+  width:0%;
+}
+.navbar-header{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+.welcome-section{
+	margin-top:90px;
+}
+.welcome-text p{
+    font-size:15px;
+    padding:0px;
+}
+.welcome-text h1{
+    font-size:40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.protfolio-items li{
+    list-style: none;
+    padding: 10px;
+    background: #1BBC9B;
+    color: #fff;
+    margin: 10px;
+    font-size:10px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ .s-items{
+ margin:10px;
+ border-radius: 50%;
+ height:125px;
+ width:125px;
+ margin-bottom: 30px;
+ overflow:hidden;
+ position: relative;
+}
+.form button{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+.img-hover h3{
+	font-size:15px;
+ 
+}
+.img-hover p{
+	font-size:10px;
+ 
+}
+.padding{
+    padding:120px 0px 20px 0px;
+}
+.contact-us{
+	padding: 20px;
+}
+.form input,textarea{
+    margin:10px 0px;
+    border: 1px solid grey;
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
